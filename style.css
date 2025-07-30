@@ -221,6 +221,16 @@ hr{
     gap: 1em;
 
 }
+
+.button-wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 1em;
+    gap: 1em;
+
+}
+
 button{
     font-size: 1em;
     font-weight: 800;
@@ -244,4 +254,9 @@ button:hover{
 #reset{
     background-color: #943fb3;
 }
-
+#addTime{
+	background-color: rgb(51, 171, 204);
+}
+#shortenTime{
+	background-color: rgb(51, 171, 204);
+}

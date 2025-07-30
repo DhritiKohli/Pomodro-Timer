@@ -2,6 +2,8 @@ const start = document.getElementById('start');
 const stopTime = document.getElementById('stop');   
 const reset = document.getElementById('reset');
 const timer = document.getElementById('timer');
+const addTime = document.getElementById('addTime');
+const shortenTime = document.getElementById('shortenTime');
 
 let timeLeft = 1500; // 25 minutes in seconds
 let timerInterval;
@@ -53,7 +55,22 @@ document.querySelector( "#retrobg-sun" ).onclick = () => {
 	document.querySelector( "#retrobg" ).classList.toggle( "retrobg-shutdown" );
 };
 
+const addFiveMinutes = () => {
+    timeLeft += 300; // Add 5 minutes (300 seconds)
+    updateTimerDisplay();
+}
+const shortenFiveMinutes = () => {
+    if (timeLeft >= 300) {
+        timeLeft -= 300; // Subtract 5 minutes (300 seconds)
+    } else {
+        timeLeft = 0; // Prevent negative time
+    }
+    updateTimerDisplay();
+}
+
 start.addEventListener('click', startTimer);
 stopTime.addEventListener('click', stopTimer);
 reset.addEventListener('click', resetTimer);
+addTime.addEventListener('click', addFiveMinutes);
+shortenTime.addEventListener('click', shortenFiveMinutes);
 updateTimerDisplay(); // Initial display update
