@@ -4,6 +4,7 @@ const reset = document.getElementById('reset');
 const timer = document.getElementById('timer');
 const addTime = document.getElementById('addTime');
 const shortenTime = document.getElementById('shortenTime');
+const menu = document.getElementById('menu-button');
 
 let timeLeft = 1500; // 25 minutes in seconds
 let timerInterval;

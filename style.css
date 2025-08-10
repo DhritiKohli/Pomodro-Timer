@@ -199,6 +199,20 @@ margin:7% ;
 margin-left: 15%;
 margin-right: 15%;
 }
+#menu-button{
+	background-image: url("menu.png");
+	background-size: cover;
+	background-color: transparent;
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	z-index: 2; /* Above everything else */
+	width : 40px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
+}
 
 .title{
     font-size: 3em;
