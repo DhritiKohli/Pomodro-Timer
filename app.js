@@ -69,6 +69,11 @@ const shortenFiveMinutes = () => {
     updateTimerDisplay();
 }
 
+const toggleMenu = () => {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+};
+menu.addEventListener('click', toggleMenu);
 start.addEventListener('click', startTimer);
 stopTime.addEventListener('click', stopTimer);
 reset.addEventListener('click', resetTimer);
