@@ -4,5 +4,10 @@ Features include:
 - Start, Stop and Reset Buttons
 - 5 min break timer after every 25 mins
 - Time modification buttons (+5 and -5 mins) for users to adjust the timer according to their needs.
+- Menu button to change background
+- The moving background is clickable
+- Menu to change background
 
+  
+Use of AI to help me debug my code
 Credits for the background: https://codepen.io/mr21/pen/ExVMpvK
