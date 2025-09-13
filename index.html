@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodro Timer</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
+<body>
     <div id="retrobg">
 	<div id="retrobg-sky">
 		<div id="retrobg-stars">
@@ -151,29 +152,33 @@
 		<div id="retrobg-groundShadow"></div>
 	</div>
 <body>
-	<div class="menu">
-		<button id="menu-button"></button>
-	</div>
-    <div class="container">
-        <h1 class = "title">Pomodoro Timer</h1>
-        <div class="timer">
-           <hr>
-           <p id="timer">25:00</p>
-           <div class = "button-wrapper">
-            <button id="start">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
-           </div>
-		   
-		   <div class="button-wrapper2">
-			<button id="addTime"> +5 min</button>
-			<button id="shortenTime"> -5 min</button>
+	
+	
+    <button id="menu-button"></button>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bg2.html">Change Background</a></li>
+        </ul>
+    </div>
 
-		   </div>
+    <div class="container">
+        <h1 class="title">Pomodoro Timer</h1>
+        <div class="timer">
+            <hr>
+            <p id="timer">25:00</p>
+            <div class="button-wrapper">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="button-wrapper2">
+                <button id="addTime">+5 min</button>
+                <button id="shortenTime">-5 min</button>
+            </div>
         </div>
+    </div>
 
     <script src="app.js"></script>
-    
-<div>
-    </body>
+</body>
 </html>

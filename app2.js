@@ -53,9 +53,6 @@ const resetTimer = () => {
     timeLeft = 1500; // Reset to 25 minutes
     updateTimerDisplay();
 }
-document.querySelector( "#retrobg-sun" ).onclick = () => {
-	document.querySelector( "#retrobg" ).classList.toggle( "retrobg-shutdown" );
-};
 
 const addFiveMinutes = () => {
     timeLeft += 300; // Add 5 minutes (300 seconds)
