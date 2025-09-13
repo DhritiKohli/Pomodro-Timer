@@ -8,4 +8,6 @@ Features include:
 - The moving background is clickable
 - Menu to change background
 
+  
+Use of AI to help me debug my code
 Credits for the background: https://codepen.io/mr21/pen/ExVMpvK
